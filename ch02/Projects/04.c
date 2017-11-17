@@ -1,12 +1,15 @@
-#include <stdio.h>
+/* Calculates a 5% tax on a user defined input. */
 
-float amount;
+#include <stdio.h>
 
 int main(void)
 {
+    float amount;
+
     printf("Enter an amount: ");
     scanf("%f", &amount);
-    printf("with tax added: $%.2f", amount * 1.05f);
+
+    printf("With tax added: $%.2f\n", amount * 1.05f);
 
     return 0;
 }

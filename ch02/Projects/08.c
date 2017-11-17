@@ -1,3 +1,5 @@
+/* Calculate the monthly balance on a loan. */
+
 #include <stdio.h>
 
 int main(void)
@@ -6,8 +8,10 @@ int main(void)
 
     printf("Enter amount of loan: ");
     scanf("%f", &loan);
+
     printf("Enter interest rate: ");
     scanf("%f", &interest_rate);
+
     printf("Enter monthly payment: ");
     scanf("%f", &monthly_payment);
 

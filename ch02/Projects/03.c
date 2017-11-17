@@ -1,14 +1,22 @@
+/* Compute the volume of a sphere with a user defined radius. */
+
 #include <stdio.h>
 
-#define PI 3.14159
-#define FRAC 4.0f/3.0f
-
-float radius, volume;
+#define PI 3.14f
+#define DIVISION_FACTOR (4.0f / 3.0f)
 
 int main(void)
 {
-    printf("Please enter the radius of the sphere: ");
-    scanf("%f", &radius); 
-    volume = FRAC * (PI * (radius * radius * radius));
-    printf("%.2f", volume);
+    int radius_cubed, radius;
+    float volume;
+
+    printf("Enter radius of the sphere: ");
+    scanf("%d", &radius);
+
+    radius_cubed = radius * radius * radius;
+    volume = DIVISION_FACTOR * PI * radius_cubed;
+
+    printf("The volume of a sphere with a %d-meter radius is ~%.2fm^2.\n", radius, volume);
+
+    return 0;
 }
