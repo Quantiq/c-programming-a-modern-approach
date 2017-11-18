@@ -1,4 +1,4 @@
-#### 1.
+### 1.
 
 Depending on the compiler, 'return 0;' needs to be added to remove the compiler error.
 
@@ -12,7 +12,9 @@ Depending on the compiler, 'return 0;' needs to be added to remove the compiler 
 	}
 ```
 
-#### 2. (a)
+### 2.
+
+##### (a)
 
 Directives:
 
@@ -25,7 +27,7 @@ Statements:
 	- printf("available for its completion.\n");
 	- return 0;
 
-#### 2. (b)
+##### (b)
 
 Output:
 
@@ -33,7 +35,7 @@ Output:
 	Work expands so as to fill the time
 	available for its completion.
 
-#### 3.
+### 3.
 
 ```C
 /* Computes the dimensional weight of a 12" x 10" x 8" box */
@@ -54,7 +56,7 @@ int main(void)
 }
 ```
 
-#### 4.
+### 4.
 
 ```C
 #include <stdio.h>
@@ -71,44 +73,44 @@ int main(void)
 }
 ```
 
-#### 5.
+### 5.
 
 (a) is not a legal C identifier because it begins with a digit.
 
-#### 6.
+### 6.
 
 Adding more than one adjacent underscore to an identifier can make it difficult to discern the number of underscores it contains.
 
-#### 7.
+### 7.
 
 'for' and 'while' are keywords in C. 'printf' is a standard library function part of stdio.h. 'main' is a user defined function. 'If' is not a keyword since it contains a capital letter.
 
-#### 8.
+### 8.
 
 There are 14 tokens in the statement.
 
-1. a
-2. n
-3. s
-4. w
-5. e
-6. r
-7. =
-8. (
-9. *
-10. -
-11. *
-12. )
-13. /
-14. ;
+	1. a
+	2. n
+	3. s
+	4. w
+	5. e
+	6. r
+	7. =
+	8. (
+	9. *
+	10. -
+	11. *
+	12. )
+	13. /
+	14. ;
 
-#### 9.
+### 9.
 
 ```C
 answer = (3 * q - p * p) / 3;
 ```
 
-#### 10.
+### 10.
 
 There are 3 essential spaces in the dweight.c program.
 
