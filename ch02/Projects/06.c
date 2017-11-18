@@ -1,5 +1,3 @@
-/* Compute the value of f(x) from a user defined input using Horner's Rule. */
-
 #include <stdio.h>
 
 int main(void)

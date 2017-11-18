@@ -9,8 +9,7 @@ If you see anything that I may have missed, or noticed anything that's incorrect
 
 ## Finished Patches
 
-- [x] Chapter 1 Patches
-- [ ] Chapter 2 Patches
+- [x] Chapter 2 Patches
 - [ ] Chapter 3 Patches
 - [ ] Chapter 4 Patches
 - [ ] Chapter 5 Patches

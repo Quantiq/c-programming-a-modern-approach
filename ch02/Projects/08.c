@@ -1,5 +1,3 @@
-/* Calculate the monthly balance on a loan. */
-
 #include <stdio.h>
 
 int main(void)

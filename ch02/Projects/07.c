@@ -1,5 +1,3 @@
-/* Compute the smallest way to pay using $20, $10, $5 and $1 bills. */
-
 #include <stdio.h>
 
 int main(void)

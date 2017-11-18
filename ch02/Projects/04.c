@@ -1,5 +1,3 @@
-/* Calculates a 5% tax on a user defined input. */
-
 #include <stdio.h>
 
 int main(void)
